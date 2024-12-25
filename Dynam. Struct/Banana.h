@@ -29,6 +29,12 @@ public:
 	void Show () const;
 
 
+	void InsertAtPosition(T value, int position);
+	void DeleteAtPosition(int position);
+	int Search(T value) const;
+	int Replace(T oldValue, T newValue);
+	void Reverse();
+
 };
 #include "Banana.cpp"
 #endif // BANANA_H
